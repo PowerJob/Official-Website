@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="818px" height="950px" viewBox="0 0 818 950" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="94.5928351%" id="linearGradient-1">
+            <stop stop-color="#3F88FF" offset="0%"></stop>
+            <stop stop-color="#E1E4FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="97.2836886%" id="linearGradient-2">
+            <stop stop-color="#3F88FF" offset="0%"></stop>
+            <stop stop-color="#E1E4FF" offset="97.2340137%"></stop>
+        </linearGradient>
+        <linearGradient x1="72.8061361%" y1="33.2204147%" x2="147.95954%" y2="124.597645%" id="linearGradient-3">
+            <stop stop-color="#4154E0" stop-opacity="0.910609149" offset="0%"></stop>
+            <stop stop-color="#ABB3ED" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="/Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cosmos_website_home_1920px-Copy-2" transform="translate(-1102.000000, -1896.000000)">
+            <g id="Module---SDK" transform="translate(0.000000, 1896.000000)">
+                <g id="Group-2" transform="translate(1101.000000, -135.000000)">
+                    <g id="blockchain-BG" opacity="0.552478609" transform="translate(11.000000, 0.000000)" stroke-width="2">
+                        <polygon id="Polygon-Copy-8" stroke="url(#linearGradient-1)" transform="translate(265.740047, 811.813084) rotate(-330.000000) translate(-265.740047, -811.813084) " points="265.75867 662.437846 391.197004 737.109827 391.178381 886.485065 265.721424 961.188322 140.283089 886.516341 140.301712 737.141103"></polygon>
+                        <polygon id="Polygon-Copy-18" stroke="url(#linearGradient-2)" transform="translate(184.763466, 1027.308411) rotate(-330.000000) translate(-184.763466, -1027.308411) " points="184.782089 877.933173 310.220424 952.605155 310.201801 1101.98039 184.744843 1176.68365 59.3065085 1102.01167 59.3251315 952.63643"></polygon>
+                        <polygon id="Polygon-Copy-9" stroke="url(#linearGradient-2)" transform="translate(436.817330, 809.532710) rotate(-330.000000) translate(-436.817330, -809.532710) " points="436.835953 660.157472 562.274288 734.829454 562.255665 884.204692 436.798707 958.907948 311.360373 884.235967 311.378996 734.860729"></polygon>
+                        <polygon id="Polygon-Copy-23" stroke="url(#linearGradient-2)" transform="translate(355.840749, 1027.308411) rotate(-330.000000) translate(-355.840749, -1027.308411) " points="355.859372 877.933173 481.297707 952.605155 481.279084 1101.98039 355.822126 1176.68365 230.383792 1102.01167 230.402415 952.63643"></polygon>
+                        <polygon id="Polygon-Copy-10" stroke="url(#linearGradient-2)" transform="translate(605.613583, 807.252336) rotate(-330.000000) translate(-605.613583, -807.252336) " points="605.632206 657.877098 731.070541 732.54908 731.051918 881.924318 605.59496 956.627574 480.156626 881.955593 480.175249 732.580355"></polygon>
+                        <polygon id="Polygon-Copy-24" stroke="url(#linearGradient-2)" transform="translate(524.637002, 1027.308411) rotate(-330.000000) translate(-524.637002, -1027.308411) " points="524.655625 877.933173 650.09396 952.605155 650.075337 1101.98039 524.618379 1176.68365 399.180045 1102.01167 399.198668 952.63643"></polygon>
+                        <polygon id="Polygon-Copy-11" stroke="url(#linearGradient-2)" transform="translate(354.700234, 607.719626) rotate(-330.000000) translate(-354.700234, -607.719626) " points="354.718857 458.344388 480.157192 533.016369 480.138569 682.391607 354.681611 757.094864 229.243277 682.422883 229.2619 533.047645"></polygon>
+                        <polygon id="Polygon-Copy-12" stroke="url(#linearGradient-2)" transform="translate(523.496487, 605.439252) rotate(-330.000000) translate(-523.496487, -605.439252) " points="523.51511 456.064014 648.953445 530.735996 648.934822 680.111234 523.477864 754.81449 398.03953 680.142509 398.058153 530.767271"></polygon>
+                        <polygon id="Polygon-Copy-13" stroke="url(#linearGradient-2)" transform="translate(436.817330, 404.766355) rotate(-330.000000) translate(-436.817330, -404.766355) " points="436.835953 255.391117 562.274288 330.063098 562.255665 479.438336 436.798707 554.141593 311.360373 479.469612 311.378996 330.094374"></polygon>
+                        <path d="M605.632275,254.274558 L481.175178,328.382449 L481.156696,476.620795 L605.594891,550.697405 L730.051989,476.589514 L730.07047,328.351167 L605.632275,254.274558 Z" id="Polygon-Copy-14" stroke="url(#linearGradient-2)" transform="translate(605.613583, 402.485981) rotate(-330.000000) translate(-605.613583, -402.485981) "></path>
+                        <path d="M265.758739,259.975492 L141.301641,334.083383 L141.28316,482.32173 L265.721355,556.398339 L390.178452,482.290449 L390.196934,334.052102 L265.758739,259.975492 Z" id="Polygon-Copy-15" stroke="url(#linearGradient-2)" transform="translate(265.740047, 408.186916) rotate(-330.000000) translate(-265.740047, -408.186916) "></path>
+                        <path d="M354.718926,44.4801652 L230.261829,118.588056 L230.243347,266.826403 L354.681542,340.903012 L479.13864,266.795122 L479.157121,118.556775 L354.718926,44.4801652 Z" id="Polygon-Copy-20" stroke="url(#linearGradient-2)" transform="translate(354.700234, 192.691589) rotate(-330.000000) translate(-354.700234, -192.691589) "></path>
+                        <path d="M526.936725,44.4801652 L402.479627,118.588056 L402.461146,266.826403 L526.899341,340.903012 L651.356438,266.795122 L651.374919,118.556775 L526.936725,44.4801652 Z" id="Polygon-Copy-21" stroke="url(#linearGradient-2)" transform="translate(526.918033, 192.691589) rotate(-330.000000) translate(-526.918033, -192.691589) "></path>
+                        <path d="M695.732978,44.4801652 L571.27588,118.588056 L571.257399,266.826403 L695.695593,340.903012 L820.152691,266.795122 L820.171172,118.556775 L695.732978,44.4801652 Z" id="Polygon-Copy-22" stroke="url(#linearGradient-2)" transform="translate(695.714286, 192.691589) rotate(-330.000000) translate(-695.714286, -192.691589) "></path>
+                        <path d="M183.641643,459.508203 L59.1845455,533.616093 L59.1660641,681.85444 L183.604259,755.93105 L308.061356,681.823159 L308.079838,533.584812 L183.641643,459.508203 Z" id="Polygon-Copy-16" stroke="url(#linearGradient-2)" transform="translate(183.622951, 607.719626) rotate(-330.000000) translate(-183.622951, -607.719626) "></path>
+                        <path d="M771.006983,663.601661 L646.549885,737.709551 L646.531404,885.947898 L770.969598,960.024508 L895.426696,885.916617 L895.445177,737.67827 L771.006983,663.601661 Z" id="Polygon-Copy-19" stroke="url(#linearGradient-2)" transform="translate(770.988290, 811.813084) rotate(-330.000000) translate(-770.988290, -811.813084) "></path>
+                        <path d="M695.732978,459.508203 L571.27588,533.616093 L571.257399,681.85444 L695.695593,755.93105 L820.152691,681.823159 L820.171172,533.584812 L695.732978,459.508203 Z" id="Polygon-Copy-17" stroke="url(#linearGradient-2)" transform="translate(695.714286, 607.719626) rotate(-330.000000) translate(-695.714286, -607.719626) "></path>
+                        <g id="blockchain-BG-Copy" transform="translate(507.529274, 0.000000)" stroke="url(#linearGradient-2)">
+                            <polygon id="Polygon-Copy-18" transform="translate(183.622951, 1027.308411) rotate(-330.000000) translate(-183.622951, -1027.308411) " points="183.641574 877.933173 309.079908 952.605155 309.061285 1101.98039 183.604328 1176.68365 58.1659932 1102.01167 58.1846163 952.63643"></polygon>
+                            <polygon id="Polygon-Copy-9" transform="translate(435.676815, 809.532710) rotate(-330.000000) translate(-435.676815, -809.532710) " points="435.695438 660.157472 561.133773 734.829454 561.115149 884.204692 435.658192 958.907948 310.219857 884.235967 310.23848 734.860729"></polygon>
+                            <polygon id="Polygon-Copy-23" transform="translate(354.700234, 1027.308411) rotate(-330.000000) translate(-354.700234, -1027.308411) " points="354.718857 877.933173 480.157192 952.605155 480.138569 1101.98039 354.681611 1176.68365 229.243277 1102.01167 229.2619 952.63643"></polygon>
+                            <polygon id="Polygon-Copy-11" transform="translate(353.559719, 607.719626) rotate(-330.000000) translate(-353.559719, -607.719626) " points="353.578342 458.344388 479.016677 533.016369 478.998053 682.391607 353.541096 757.094864 228.102761 682.422883 228.121384 533.047645"></polygon>
+                            <polygon id="Polygon-Copy-13" transform="translate(435.676815, 404.766355) rotate(-330.000000) translate(-435.676815, -404.766355) " points="435.695438 255.391117 561.133773 330.063098 561.115149 479.438336 435.658192 554.141593 310.219857 479.469612 310.23848 330.094374"></polygon>
+                            <path d="M264.618224,259.975492 L140.161126,334.083383 L140.142645,482.32173 L264.580839,556.398339 L389.037937,482.290449 L389.056418,334.052102 L264.618224,259.975492 Z" id="Polygon-Copy-15" transform="translate(264.599532, 408.186916) rotate(-330.000000) translate(-264.599532, -408.186916) "></path>
+                            <path d="M353.578411,44.4801652 L229.121314,118.588056 L229.102832,266.826403 L353.541027,340.903012 L477.998124,266.795122 L478.016606,118.556775 L353.578411,44.4801652 Z" id="Polygon-Copy-20" transform="translate(353.559719, 192.691589) rotate(-330.000000) translate(-353.559719, -192.691589) "></path>
+                        </g>
+                    </g>
+                    <g id="blockchain1" transform="translate(108.087748, 614.275871) rotate(89.500000) translate(-108.087748, -614.275871) translate(32.087748, 507.275871)">
+                        <polygon id="Fill-4-Copy" fill="#E4E4E4" points="1.73012939 85.8897824 1.73012939 170.845537 76.9929454 213.324721 151.115459 170.835586 151.115459 85.8798311 76.9929454 43.4132122"></polygon>
+                        <polygon id="Fill-2" fill="url(#linearGradient-3)" points="0.967975266 42.5489981 0.967975266 127.50606 76.2307913 169.983283 151.493607 127.50606 151.493607 42.5489981 76.2307913 0.0717744247"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

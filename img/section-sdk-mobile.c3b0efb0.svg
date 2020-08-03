@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="391px" height="290px" viewBox="0 0 391 290" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>SDK chain</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#2374FA" offset="0%"></stop>
+            <stop stop-color="#B3C9F3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="72.8061361%" y1="33.2204147%" x2="147.95954%" y2="124.597645%" id="linearGradient-2">
+            <stop stop-color="#4154E0" stop-opacity="0.910609149" offset="0%"></stop>
+            <stop stop-color="#ABB3ED" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="/Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cosmos_website_home_768px" transform="translate(-269.000000, -2628.000000)">
+            <g id="Module---SDK" transform="translate(0.000000, 1733.000000)">
+                <g id="SDK-chain" transform="translate(244.000000, 852.000000)">
+                    <polygon id="Polygon-Copy-8" stroke="url(#linearGradient-1)" stroke-width="2" transform="translate(127.347594, 243.063534) rotate(31.000000) translate(-127.347594, -243.063534) " points="127.317193 140.03433 213.81832 191.574459 213.84872 294.603664 127.377994 346.092739 40.8768673 294.552609 40.8464667 191.523405"></polygon>
+                    <polygon id="Polygon-Copy-9" stroke="url(#linearGradient-1)" stroke-width="2" transform="translate(245.262032, 243.063534) rotate(31.000000) translate(-245.262032, -243.063534) " points="245.231631 140.03433 331.732758 191.574459 331.763159 294.603664 245.292433 346.092739 158.791306 294.552609 158.760905 191.523405"></polygon>
+                    <polygon id="Polygon-Copy-25" stroke="url(#linearGradient-1)" stroke-width="2" transform="translate(313.652406, 132.936466) rotate(31.000000) translate(-313.652406, -132.936466) " points="313.622006 29.9072609 400.123133 81.4473906 400.153533 184.476595 313.682807 235.96567 227.18168 184.425541 227.15128 81.3963361"></polygon>
+                    <g id="blockchain1" transform="translate(186.480477, 243.783429) rotate(91.000000) translate(-186.480477, -243.783429) translate(137.480477, 175.283429)">
+                        <g id="Group" transform="translate(0.642076, 25.248115)" fill="#E4E4E4">
+                            <polygon id="Fill-4-Copy" points="0.542448621 28.0209272 0.542448621 83.3155995 48.3747914 110.963786 96.2071341 83.3155995 96.2071341 28.0209272 48.3747914 0.374441807"></polygon>
+                        </g>
+                        <polygon id="Fill-2" fill="url(#linearGradient-2)" points="1.18452472 27.8047727 1.18452472 83.0994449 49.0168675 110.74593 96.8492102 83.0994449 96.8492102 27.8047727 49.0168675 0.158287277"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
