@@ -9,7 +9,7 @@ function scrollFX()
 	var docHeight = $(document).height();
 	var windowHeight = $(window).height();
 
-	if (docHeight != windowHeight) // Prevent Scroll FX on documents that match window height
+	if (docHeight != windowHeight) 
 	{
 		// Get Scroll Direction
 		var currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;

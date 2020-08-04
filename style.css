@@ -1,4 +1,3 @@
- 
 body{
 	margin:0;
 	padding:0;
@@ -36,7 +35,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
-/* Sizes */
+/* 尺寸 */
 
 .bloc-xl{
 	padding:150px 50px;
@@ -48,7 +47,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding:50px;
 }
 
-/* = Full Screen-------------------------------------------------------------- */
+/* 全屏显示样式 */
 
 .bloc-fill-screen{
 	min-height:100vh;
@@ -78,7 +77,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
-/* Background*/
+/* BG */
 
 .b-parallax{
 	background-attachment:fixed;
@@ -91,7 +90,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 }
 
-/* Dark theme */
+/* 暗色 */
 
 .d-bloc{
 	color:rgba(255,255,255,.7);
@@ -142,7 +141,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
-/* Light theme */
+/* 亮色 */
 
 .d-bloc .card,.l-bloc{
 	color:rgba(0,0,0,.5);
@@ -170,7 +169,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	border-color:rgba(0,0,0,.3);
 }
 
-/* Row Margin Offsets */
+/* margin */
 
 .voffset{
 	margin-top:30px;
@@ -184,9 +183,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 
 
-
-/* = NavBar-------------------------------------------------------------- */
-
 .hero .hero-nav{
 	padding-left:inherit;
 	padding-right:inherit;
@@ -194,7 +190,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 .navbar-dark .nav .dropdown-menu .nav-link{
 	color: rgb(64, 64, 64);
 }
-/* Handle Multi Level Navigation */.navbar-light .navbar-nav .nav-link {
+/* 导航栏 */.navbar-light .navbar-nav .nav-link {
 	color: rgb(64, 64, 64);
 }
 .btco-menu li > a {
@@ -209,14 +205,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	transform: rotate(-90deg);
 }
 
-/* = Bric adjustment margins
--------------------------------------------------------------- */
-
-
-
-
-
-
 
 
 .mg-clear{
@@ -226,7 +214,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	margin-top:10px;
 	margin-bottom:5px;
 }
-
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -248,8 +235,7 @@ img.mg-lg{
 	margin-bottom:50px;
 }
 
-/* = Buttons
--------------------------------------------------------------- */
+/* 按钮样式 */
 
 .btn-d,.btn-d:hover,.btn-d:focus{
 	color:#FFF;
@@ -284,15 +270,13 @@ button{
 	margin-right:5px;
 }
 
-/* = Icons
--------------------------------------------------------------- */
+/* icon样式 */
 .icon-md{
 	font-size:30px!important;
 }
 
 
-/* = Text & Icon Styles
--------------------------------------------------------------- */
+/* 文本于icon样式 */
 .glow-t{
 	text-shadow:0 0 10px #FFF;
 }
@@ -306,8 +290,7 @@ button{
 }
 
 
-/* = Cards
--------------------------------------------------------------- */
+/* 卡片样式 */
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
 	border-radius:0;
 }
@@ -321,8 +304,6 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
-/* = Dividers
--------------------------------------------------------------- */
 .divider-h{
 	padding:20px 0;
 	width:100%;
@@ -343,7 +324,7 @@ button{
 
 
 
-/* 滚动滑块 */
+/* 底部华东按钮模块 */
 
 .scrollToTop{
 	width:40px;
@@ -363,8 +344,7 @@ button{
 	opacity: 1;
 }
 
-/* = Custom Styling
--------------------------------------------------------------- */
+
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Helvetica";
@@ -453,7 +433,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h1-bloc-3-style{
 	font-size:50px;
-	letter-spacing:2px;
+	letter-spacing:1px;
 	font-family:"Josefin Sans";
 }
 .card-style{
@@ -502,17 +482,25 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:150px;
 	height:150px;
 }
+.img-10-style{
+	width:150px;
+	height:150px;
+}
+.h3-bloc-4-style{
+	letter-spacing:3px;
+	line-height:36px;
+	font-size:25px;
+}
 
-/* = Colour
--------------------------------------------------------------- */
 
-/* Background colour styles */
+
+/* bg颜色 */
 
 .bgc-black{
 	background-color:#000000;
 }
 
-/* Text colour styles */
+/* 文本颜色 */
 
 .tc-white{
 	color:#FEFFFF!important;
@@ -536,7 +524,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#797979!important;
 }
 
-/* Button colour styles */
+/* 按钮颜色 */
 
 .wire-btn-white{
 	color:#FEFFFF!important;
@@ -547,7 +535,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-color:#FEFFFF!important;
 }
 
-/* Link colour styles */
+/* 链接样式 */
 
 .ltc-white{
 	color:#FEFFFF!important;
@@ -568,7 +556,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#878787!important;
 }
 
-/* Icon colour styles */
+/* icon颜色 */
 
 .icon-light-gray{
 	color:#D5D5D5!important;
@@ -587,25 +575,25 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-color:#FEFFFF!important;
 }
 
-/* image backgrounds */
+/* img */
 
-.bg-challenge-slider-desktop-2400x1167{
-	background-image:url("img/challenge-slider-desktop-2400x1167.jpg");
+.bg-powerjob_desktop_white_01{
+	background-image:url("img/powerjob_desktop_white_01.jpg");
 }
-.bg-Banner-00-2x-9390ac2e91cda78db0f2d76f228e54c0{
-	background-image:url("img/Banner-00_2x-9390ac2e91cda78db0f2d76f228e54c0.png");
+.bg-Banner-01{
+	background-image:url("img/banner_01.png");
 }
-.bg-dcrweb-header-1366{
-	background-image:url("img/dcrweb-header-1366.png");
+.bg-powerjob_desktop_white_02{
+	background-image:url("img/powerjob_desktop_white_02.png");
 }
 .bg-45{
-	background-image:url("img/45.gif");
+	background-image:url("img/bg_moon.gif");
 }
-.bg-spiral-4ce09f08255c3649e5539ac442f01701{
-	background-image:url("img/spiral-4ce09f08255c3649e5539ac442f01701.svg");
+.bg-powerjob_bg_spiral{
+	background-image:url("img/powerjob_bg_spiral.svg");
 }
-.bg-metanet-new-bg-2x{
-	background-image:url("img/metanet-new-bg_2x.jpg");
+.bg-powerjob-support-bg{
+	background-image:url("img/powerjob_support_bg.jpg");
 }
 .bg-banner4{
 	background-image:url("img/banner4.svg");
@@ -613,7 +601,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 
 
-/* = Mobile adjustments -------------------------------------------------------------- */
 @media (max-width: 1024px)
 {
     .bloc{
@@ -676,7 +663,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 @media (max-width: 991px){
 	
-	/* MD Row Margin Offsets */
+	
 	.voffset-md{
 		margin-top:30px;
 	}
