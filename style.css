@@ -82,6 +82,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 .b-parallax{
 	background-attachment:fixed;
 }
+.bg-challenge-slider-desktop-2400x1167{
+	background-image:url("img/challenge-slider-desktop-2400x1167.jpg");
+}
 
 /* Disable Parallax on Mobile Touch Devices */
 @media (hover: none) {
@@ -391,16 +394,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-indent:px;
 }
 .h1-bloc-1-style{
-	letter-spacing:10px;
+	letter-spacing:0px;
 }
-.h1-定时调度精准而优雅-style{
-	letter-spacing:10px;
+.h1-time1-style{
+	letter-spacing:0px;
 }
 .img-bloc-1-style{
 	height:380px;
 }
-.h1-工作流任务依赖，不再烦恼-style{
-	letter-spacing:10px;
+.h1-work1-style{
+	letter-spacing:0px;
 }
 .img-4-style{
 	width:400px;
@@ -410,9 +413,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	height:340px;
 }
 .h1-bloc-2-style{
-	letter-spacing:10px;
+	letter-spacing:0px;
 }
-.h2-powerjob优势-style{
+.h2-pwad-style{
 	font-size:50px;
 	letter-spacing:0px;
 }
@@ -598,7 +601,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-banner4{
 	background-image:url("img/banner4.svg");
 }
-
+.bg-bgp-newyear{
+	background-image:url("img/bgp_newyear.png");
+}
+.ltc-blue-ryb{
+	color:#0432FF!important;
+}
+.ltc-blue-ryb:hover{
+	color:#0328cc!important;
+}
+.link-style{
+	font-style:italic;
+}
 
 
 @media (max-width: 1024px)
@@ -687,3 +701,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	
 }
 
+.label-style{
+ 	width:100%;
+  }

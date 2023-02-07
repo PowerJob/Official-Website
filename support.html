@@ -13,7 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <title>support</title>
+    <title>PowerJob-Sponsor</title>
 
 
 
@@ -28,27 +28,40 @@
 	<div class="container fill-bloc-top-edge">
 		<div class="row">
 			<div class="col-12">
-				<nav class="navbar row navbar-expand-md navbar-dark" role="navigation">
-					<a class="navbar-brand" href="index.html"><img src="img/lazyload-ph.png" data-src="img/logo.png" alt="logo" class="lazyload" /></a>
-					<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 mr-md-0 ml-auto" data-toggle="collapse" data-target=".navbar-14442" aria-expanded="false" aria-label="Toggle navigation">
+				<nav class="navbar navbar-light row navbar-expand-md" role="navigation">
+					<a class="navbar-brand" href="index.html"><img src="img/logo_white.png" alt="logo" /></a>
+					<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 mr-md-0 ml-auto" data-toggle="collapse" data-target=".navbar-28156" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
-					<div class="collapse navbar-collapse navbar-14442">
+					<div class="collapse navbar-collapse navbar-28156">
 						<ul class="site-navigation nav navbar-nav ml-auto">
 							<li class="nav-item">
-								<a href="index.html" class="nav-link  ltc-white-3">首页</a>
+								<a id="btnOk" href="index.html" class="nav-link a-btn ltc-white" k-resid="pwhome">首页</a>
 							</li>
 							<li class="nav-item">
-								<a href="https://www.yuque.com/powerjob/guidence/ztn4i5" class="nav-link a-btn ltc-white-3" target="_blank">文档</a>
+								<a id="btn1k" href="https://www.yuque.com/powerjob/guidence/ztn4i5" class="nav-link a-btn ltc-white" target="_blank" k-resid="doc" >文档</a>
 							</li>
 							<li class="nav-item">
-								<a href="https://github.com/KFCFans/PowerJob" class="nav-link a-btn ltc-white-3" target="_blank">GitHub</a>
+								<a href="https://github.com/KFCFans/PowerJob" class="nav-link a-btn ltc-white" target="_blank">GitHub</a>
 							</li>
 							<li class="nav-item">
-								<a href="https://gitee.com/KFCFans/PowerJob" class="nav-link a-btn ltc-white-3" target="_blank">Gitee</a>
+								<a href="https://gitee.com/KFCFans/PowerJob" class="nav-link a-btn ltc-white" target="_blank">Gitee</a>
 							</li>
 							<li class="nav-item">
-								<a href="support.html" class="nav-link a-btn ltc-white-3">赞助</a>
+								<a id="btn2k" href="support.html" class="nav-link a-btn ltc-white" k-resid="spo">赞助</a>
+							</li>
+							<li class="nav-item ">
+								<div class="dropdown btn-dropdown">
+									<a id="btn3k" href="#" class="nav-link dropdown-toggle a-btn ltc-white" data-toggle="dropdown" aria-expanded="false" k-resid="lan">简体中文</a>
+									<ul class="dropdown-menu" role="menu">
+										<li class="nav-item">
+											<a href="javascript:void(0);" class="nav-link a-btn ltc-black" id="btnEn">English</a>
+										</li>
+										<li class="nav-item">
+											<a href="javascript:void(0);" class="nav-link a-btn ltc-black" id="btnZh">简体中文</a>
+										</li>
+									</ul>
+								</div>
 							</li>
 						</ul>
 					</div>
@@ -60,13 +73,13 @@
 		<div class="row">
 			<div class="col">
 				<h1 class="mg-md text-center h1-bloc-3-style tc-white-3 none noneUp animSpeedLazy noneDown animated fadeInUp" data-appear-anim-style="fadeInUp">
-					<strong>赞助 PowerJob 的研发</strong>
+					<strong id="btn88k" k-resid="pwtext88">赞助 PowerJob 的研发</strong>
 				</h1>
-				<h3 class="mg-md float-none text-center h3-style animDelay02 animSpeedLazy scroll-fx-down-out tc-white-3 none noneUp animated fadeInUp" data-appear-anim-style="fadeInUp">
+				<h3 class="mg-md float-none text-center h3-style animDelay02 animSpeedLazy scroll-fx-down-out tc-white-3 none noneUp animated fadeInUp" data-appear-anim-style="fadeInUp" id="btn89k" k-resid="pwtext89">
 					PowerJob 是采用 Apache License, Version 2.0 许可的开源项目，使用完全免费。 但为了项目能够健康持续的发展下去，我们期望获得相应的资金支持。
 				</h3>
 				<div class="text-center">
-					<a href="#" class="btn animated fadeInUp wire-btn-white-2 btn-wire btn-rd animSpeedLazy animDelay06 btn-lg" data-scroll-speed="1000" onclick="scrollToTarget('0',this)" data-appear-anim-style="fadeInUp"><span class="icon-spacer fa fa-thumbs-up icon-white-2"></span>&nbsp;赞 助 PowerJob</a>
+					<a href="#" class="btn animated fadeInUp wire-btn-white-2 btn-wire btn-rd animSpeedLazy animDelay06 btn-lg" data-scroll-speed="1000" onclick="scrollToTarget('0',this)" data-appear-anim-style="fadeInUp"><span class="icon-spacer fa fa-thumbs-up icon-white-2"></span>&nbsp;<span id="btn90k" k-resid="pwtext90">赞 助</span> PowerJob</a>
 				</div>
 			</div>
 		</div>
@@ -87,14 +100,14 @@
 		<div class="row voffset">
 			<div class="col">
 				<h1 class="mg-md text-lg-center h1_h h3-2-style tc-white-3 scroll-fx-up-in">
-					<span class="fa fa-rocket"></span><strong>&nbsp;赞 助 PowerJob</strong><br>
+					<span class="fa fa-rocket"></span><strong>&nbsp;<span id="btn91k" k-resid="pwtext91">赞 助</span> PowerJob</strong><br>
 				</h1>
 				<div class="row voffset">
 					<div class="offset-lg-2 col-lg-4 scroll-fx-left-in">
 						<div class="card">
 							<div class="card-header">
 								<h3 class="mg-clear text-lg-center tc-gray-htmlcss-gray">
-									支付宝<span class="style4"></span>
+									<span id="btn92k" k-resid="pwtext92">支付宝</span><span class="style4"></span>
 								</h3>
 							</div>
 							<div class="card-body">
@@ -105,7 +118,7 @@
 					<div class="col-lg-4 scroll-fx-right-in">
 						<div class="card">
 							<div class="card-header">
-								<h3 class="mg-clear text-lg-center tc-gray-htmlcss-gray">
+								<h3 id="btn93k" k-resid="pwtext93" class="mg-clear text-lg-center tc-gray-htmlcss-gray">
 									微信
 								</h3>
 							</div>
@@ -118,12 +131,12 @@
 				<div class="row voffset-lg">
 					<div class="col-12 col-lg-10 offset-lg-1 order-lg-0">
 						<h3 class="mg-md text-lg-center h3-bloc-4-style scroll-fx-up-in scroll-fx-down-out">
-							<span class="fa fa-fire"></span><i>&nbsp;对于您的赞助我们表示由衷</i><i>感谢，如果您的赞助成功，我们将于近期收录至以下链接中，再次感谢您的支持！</i><br>
+							<span class="fa fa-fire"></span><i>&nbsp;<span id="btn94k" k-resid="pwtext94">对于您的赞助我们表示由衷感谢，如果您的赞助成功，我们将于近期收录至以下链接中，再次感谢您的支持！</span></i><br>
 						</h3>
 					</div>
 					<div class="col-12 order-lg-0 col-lg-4 offset-lg-4">
 						<div class="text-center">
-							<a href="https://www.yuque.com/powerjob/guidence/sponsor" class="btn btn-rd btn-lg btn-wire scroll-fx-up-in scroll-fx-down-out " target="_blank">&nbsp;查看您为 PowerJob 作出的贡献&nbsp;<br></a>
+							<a href="https://www.yuque.com/powerjob/guidence/sponsor" class="btn btn-rd btn-lg btn-wire scroll-fx-up-in scroll-fx-down-out " target="_blank">&nbsp;<span id="btn96k" k-resid="pwtext96">查看您为 PowerJob 作出的贡献</span>&nbsp;<br></a>
 						</div>
 					</div>
 				</div>
@@ -136,22 +149,28 @@
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-md-3 col-sm-6">
-				<h4 class="mg-md text-sm-left text-center tc-white-2">
+				<h4 id="btn80k" k-resid="pwtext80" class="mg-md text-sm-left text-center tc-white-2">
 					学习
-				</h4><a href="https://www.yuque.com/powerjob/guidence/ztn4i5" class="a-btn a-block footer-link" target="_blank">项目简介</a><a href="https://www.yuque.com/powerjob/guidence/nyio9g" class="a-btn a-block footer-link" target="_blank">框架入门</a><a href="https://www.yuque.com/powerjob/guidence/bdvp1u" class="a-btn a-block footer-link" target="_blank">部署教程</a>
+				</h4><a href="https://www.yuque.com/powerjob/guidence/ztn4i5" class="a-btn a-block footer-link" target="_blank" id="btn81k" k-resid="pwtext81">项目简介</a>
+				<a href="https://www.yuque.com/powerjob/guidence/nyio9g" class="a-btn a-block footer-link" target="_blank" id="btn82k" k-resid="pwtext82">框架入门</a>
+				<a href="https://www.yuque.com/powerjob/guidence/bdvp1u" class="a-btn a-block footer-link" target="_blank" id="btn83k" k-resid="pwtext83">部署教程</a>
 			</div>
 			<div class="col-md-3 col-sm-6">
-				<h4 class="mg-md text-sm-left text-center tc-white-2">
+				<h4 class="mg-md text-sm-left text-center tc-white-2" id="btn84k" k-resid="pwtext84">
 					代码
-				</h4><a href="https://github.com/KFCFans/PowerJob" class="a-btn a-block footer-link" target="_blank">GitHub</a><a href="https://gitee.com/KFCFans/PowerJob" class="a-btn a-block footer-link" target="_blank">Gitee</a>
+				</h4>
+				<a href="https://github.com/KFCFans/PowerJob" class="a-btn a-block footer-link" target="_blank">GitHub</a>
+				<a href="https://gitee.com/KFCFans/PowerJob" class="a-btn a-block footer-link" target="_blank">Gitee</a>
 			</div>
 			<div class="col-md-3 col-sm-6">
-				<h4 class="mg-md text-sm-left text-center tc-white-2">
+				<h4 class="mg-md text-sm-left text-center tc-white-2" id="btn85k" k-resid="pwtext85">
 					交流
-				</h4><a href="https://github.com/KFCFans/PowerJob/issues" class="a-btn a-block footer-link" target="_blank">GitHub Issues</a><a href="https://jq.qq.com/?_wv=1027&amp;k=DKX8OoSQ" class="a-btn a-block footer-link" target="_blank">用户群&nbsp;487453839</a>
+				</h4>
+				<a href="https://github.com/KFCFans/PowerJob/issues" class="a-btn a-block footer-link" target="_blank">GitHub Issues</a>
+				<a href="https://jq.qq.com/?_wv=1027&amp;k=DKX8OoSQ" class="a-btn a-block footer-link" target="_blank" ><span id="btn86k" k-resid="pwtext86">用户群</span>&nbsp;487453839</a>
 			</div>
 			<div class="col-md-3 col-sm-6">
-				<h4 class="mg-md text-sm-left text-center tc-white-2">
+				<h4 class="mg-md text-sm-left text-center tc-white-2" id="btn87k" k-resid="pwtext87">
 					其他
 				</h4>
 				<h6 class="text-center mg-sm text-lg-left">
@@ -182,7 +201,9 @@
 <script src="./js/lazysizes.min.js" defer></script>
 <script src="./js/scrollFX.js?1005"></script>
 
-
+<script src="./js/js.cookie.min.js"></script>
+<script src="./js/jquery.i18n.js"></script>
+<script src="./js/powerjob_lan.js"></script>
 
 
 

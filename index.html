@@ -33,10 +33,10 @@
 					<div class="collapse navbar-collapse navbar-28156">
 						<ul class="site-navigation nav navbar-nav ml-auto">
 							<li class="nav-item">
-								<a href="index.html" class="nav-link a-btn ltc-white">首页</a>
+								<a id="btnOk" href="index.html" class="nav-link a-btn ltc-white" k-resid="pwhome">首页</a>
 							</li>
 							<li class="nav-item">
-								<a href="https://www.yuque.com/powerjob/guidence/ztn4i5" class="nav-link a-btn ltc-white" target="_blank">文档</a>
+								<a id="btn1k" href="https://www.yuque.com/powerjob/guidence/ztn4i5" class="nav-link a-btn ltc-white" target="_blank" k-resid="doc" >文档</a>
 							</li>
 							<li class="nav-item">
 								<a href="https://github.com/KFCFans/PowerJob" class="nav-link a-btn ltc-white" target="_blank">GitHub</a>
@@ -45,7 +45,20 @@
 								<a href="https://gitee.com/KFCFans/PowerJob" class="nav-link a-btn ltc-white" target="_blank">Gitee</a>
 							</li>
 							<li class="nav-item">
-								<a href="support.html" class="nav-link a-btn ltc-white">赞助</a>
+								<a id="btn2k" href="support.html" class="nav-link a-btn ltc-white" k-resid="spo">赞助</a>
+							</li>
+							<li class="nav-item ">
+								<div class="dropdown btn-dropdown">
+									<a id="btn3k" href="#" class="nav-link dropdown-toggle a-btn ltc-white" data-toggle="dropdown" aria-expanded="false" k-resid="lan">简体中文</a>
+									<ul class="dropdown-menu" role="menu">
+										<li class="nav-item">
+											<a href="javascript:void(0);" class="nav-link a-btn ltc-black" id="btnEn">English</a>
+										</li>
+										<li class="nav-item">
+											<a href="javascript:void(0);" class="nav-link a-btn ltc-black" id="btnZh">简体中文</a>
+										</li>
+									</ul>
+								</div>
 							</li>
 						</ul>
 					</div>
@@ -59,15 +72,15 @@
 				<h1 class="text-lg-center tc-white h1-style mg-md animated puffIn animSpeedLazy" data-appear-anim-style="puffIn">
 					<strong>PowerJob</strong>
 				</h1>
-				<h2 class="mg-md text-lg-center tc-white animated puffIn animDelay02 h2-bloc-0-style animSpeedLazy" data-appear-anim-style="puffIn">
+				<h2 id="btn4k" class="mg-md text-lg-center tc-white animated puffIn animDelay02 h2-bloc-0-style animSpeedLazy" data-appear-anim-style="puffIn" k-resid="newfarm">
 					全新一代分布式任务调度与计算框架
 				</h2>
 				<div class="row voffset">
 					<div class="col">
-						<a href="https://www.yuque.com/powerjob/guidence/hnbskn" class="btn float-lg-right btn-wire btn-rd btn-lg wire-btn-white btn-style animDelay04 animated vanishIn" data-appear-anim-style="vanishIn" target="_blank"><span class="icon-spacer icon-light-gray fa fa-wrench"></span>&nbsp;在 线 试 用<br></a>
+						<a href="https://www.yuque.com/powerjob/guidence/hnbskn" class="btn float-lg-right btn-wire btn-rd btn-lg wire-btn-white btn-style animDelay04 animated vanishIn" data-appear-anim-style="vanishIn" target="_blank"><span class="icon-spacer icon-light-gray fa fa-wrench"></span>&nbsp;<span id="btn5k" k-resid="try">在 线 试 用</span></a>
 					</div>
 					<div class="col">
-						<a href="https://www.yuque.com/powerjob/guidence/ztn4i5" class="btn btn-lg btn-wire btn-rd wire-btn-white animated vanishIn animDelay06" data-appear-anim-style="vanishIn" target="_blank"><span class="icon-white fa fa-file-text icon-spacer"></span>&nbsp;了 解 更 多</a>
+						<a href="https://www.yuque.com/powerjob/guidence/ztn4i5" class="btn btn-lg btn-wire btn-rd wire-btn-white animated vanishIn animDelay06" data-appear-anim-style="vanishIn" target="_blank" ><span class="icon-white fa fa-file-text icon-spacer"></span>&nbsp;<span id="btn6k" k-resid="learnmore">了 解 更 多</span></a>
 					</div>
 				</div>
 			</div>
@@ -89,13 +102,13 @@
 		<div class="row scroll-fx-up-in scroll-fx-down-out">
 			<div class="col-sm-6 offset-sm-3 offset-lg-1 col-lg-10">
 				<h2 class="mg-md text-center tc-davys-grey h2-style btn-resize-mode scroll-fx-down-out">
-					<strong>全新一代分布式任务调度与计算框架</strong>
+					<strong id="btn7k" k-resid="new1">全新一代分布式任务调度与计算框架</strong>
 				</h2>
-				<h4 class="mg-md text-center tc-davys-grey scroll-fx-down-out h4-style">
+				<h4 id="btn8k" k-resid="new2" class="mg-md text-center tc-davys-grey scroll-fx-down-out h4-style">
 					新一代分布式任务调度与计算框架，支持CRON、API、固定频率、固定延迟等调度策略，提供工作流来编排任务解决依赖关系，使用简单，功能强大，文档齐全。<br><br>
 				</h4>
 				<div class="text-center scroll-fx-down-out">
-					<a href="https://www.yuque.com/powerjob/guidence/ztn4i5" class="btn btn-rd btn-lg btn-d" target="_blank">现在开始<br></a>
+					<a id="btn9k" href="https://www.yuque.com/powerjob/guidence/ztn4i5" class="btn btn-rd btn-lg btn-d" target="_blank" k-resid="pwtext1">现在开始</a>
 				</div>
 			</div>
 		</div>
@@ -106,22 +119,22 @@
 						<img src="img/lazyload-ph.png" data-src="img/powerjob_section_1.svg" class="img-fluid mx-auto d-block img-style lazyload" alt="section hero-desktop.e8e8892a" />
 					</div>
 					<div class="col">
-						<h1 class="float-lg-none tc-dim-gray mg-lg h1-定时调度精准而优雅-style">
-							<strong>定时调度</strong><br>精准而优雅<br>
+						<h1 class="float-lg-none tc-dim-gray mg-lg h1-time1-style">
+							<strong id="btn10k" k-resid="pwtext2">定 时 调 度</strong><br><span id="btn11k" k-resid="pwtext3" >精 准 而 优 雅</span><br>
 						</h1>
 						<div class="blockquote">
-							<p class="mg-lg">
+							<p class="mg-lg" id="btn12k" k-resid="pwtext12" >
 								PowerJob 内置了 CRON 表达式、固定频率和固定延迟 3 种最常用的定时策略，同时提供 OpenAPI 作为扩展能力。
 							</p>
 						</div>
 						<div class="blockquote">
-							<p class="mg-lg">
+							<p class="mg-lg" id="btn13k" k-resid="pwtext13" >
 								用户可以通过 OpenAPI 轻松定制自己的调度策略，扩展 PowerJob 调度层。
 							</p>
 						</div>
-						<div class="blockquote">
+						<div class="blockquote" id="btn14k" k-resid="pwtext14" >
 							<p class="mg-lg">
-								OpenAPI 还额外提供了强大的“延迟执行”方法，消息中间件不再是唯一选择！
+								<strong> 还额外提供了强大的“延迟执行”方法，消息中间件不再是唯一选择！</strong>
 							</p>
 						</div>
 					</div>
@@ -133,15 +146,15 @@
 				<div class="row">
 					<div class="col">
 						<h1 class="float-lg-none tc-dim-gray mg-lg h1-bloc-1-style">
-							<strong>分布式计算</strong><br>如此简单，如此强大<br>
+							<strong id="btn15k" k-resid="pwtext15" >分 布 式 计 算</strong><br><span id="btn16k" k-resid="pwtext16" >如 此 简 单 ， 如 此 强 大</span><br>
 						</h1>
 						<div class="blockquote">
-							<p class="mg-lg">
-								PowerJob 除了基础的任务调度能力外，还提供了一套完整的分布式计算解决方案。<br>
+							<p class="mg-lg" id="btn17k" k-resid="pwtext17" >
+								PowerJob 除了基础的任务调度能力外，还提供了一套完整的<b>分布式计算解决方案</b>。<br>
 							</p>
 						</div>
 						<div class="blockquote">
-							<p class="mg-lg">
+							<p class="mg-lg" id="btn18k" k-resid="pwtext18" >
 								用户只需要实现指定的“Map/MapReduce” 处理器，就可以用寥寥数行代码调动整个集群参与计算，是您处理大批量业务数据的不二之选！
 							</p>
 						</div>
@@ -159,16 +172,16 @@
 						<img src="img/lazyload-ph.png" data-src="img/powerjob_section_4.svg" class="img-fluid mx-auto d-block img_2 img-4-style lazyload" alt="section hero-desktop.e8e8892a" />
 					</div>
 					<div class="col">
-						<h1 class="float-lg-none tc-dim-gray mg-lg h1-工作流任务依赖，不再烦恼-style">
-							<strong>工作流</strong><br>任务依赖，不再烦恼<br>
+						<h1 class="float-lg-none tc-dim-gray mg-lg h1-work1-style">
+							<strong id="btn19k" k-resid="pwtext19" >工 作 流</strong><br><span id="btn20k" k-resid="pwtext20" >任 务 依 赖 ， 不 再 烦 恼</span><br>
 						</h1>
 						<div class="blockquote">
-							<p class="mg-lg">
+							<p class="mg-lg" id="btn21k" k-resid="pwtext21">
 								PowerJob 内置了强大的工作流调度引擎，同时为用户提供友好的前端界面可视化地完成任务的编排。<br>
 							</p>
 						</div>
 						<div class="blockquote">
-							<p class="mg-lg">
+							<p class="mg-lg" id="btn22k" k-resid="pwtext22">
 								在前端页面拖拖拽拽即可解决复杂任务依赖的烦恼。<br>
 							</p>
 						</div>
@@ -181,14 +194,14 @@
 				<div class="row">
 					<div class="col">
 						<h1 class="float-lg-none tc-dim-gray mg-lg h1-bloc-1-style">
-							<strong>监控、报警、运维</strong><br><span class="text-span-color"></span>样样齐全<br>
+							<strong  id="btn23k" k-resid="pwtext23">监 控 、 报 警 、 运 维</strong><br><span class="text-span-color"></span><span  id="btn24k" k-resid="pwtext24">样 样 齐 全</span><br>
 						</h1>
 						<div class="blockquote">
-							<p class="mg-lg">
+							<p class="mg-lg" id="btn25k" k-resid="pwtext25">
 								通过 PowerJob 前端控制台，您可以轻松监测任务的一举一动，整体运行状态净收眼底。<br>
 							</p>
 						</div>
-						<div class="blockquote">
+						<div class="blockquote" id="btn26k" k-resid="pwtext26">
 							<p class="mg-lg">
 								此外，PowerJob 还提供在线日志、在线运维等功能，无论哪一样，都是开发和调试的好帮手。
 							</p>
@@ -213,15 +226,15 @@
 					</div>
 					<div class="col scroll-fx-down-out scroll-fx-right-in">
 						<h1 class="float-lg-none mg-lg type tc-light-gray h1-bloc-2-style">
-							<strong>高可用、高可靠、高性能</strong><br>“国家 3A 级认证”<br>
+							<strong  id="btn27k" k-resid="pwtext27">高 可 用 、 高 可 靠 、 高 性 能</strong><br><span  id="btn28k" k-resid="pwtext28">“ 国 家  3 A  级 认 证 ”</span><br>
 						</h1>
 						<div class="blockquote">
-							<p class="mg-lg">
+							<p class="mg-lg" id="btn29k" k-resid="pwtext29">
 								PowerJob 有着经过精心设计的分布式架构，任意组件都支持多实例集群部署来保证可用性和可靠性。<br>
 							</p>
 						</div>
 						<div class="blockquote">
-							<p class="mg-lg">
+							<p class="mg-lg" id="btn30k" k-resid="pwtext30">
 								同时，基于“无锁化设计”的调度服务器和支持 “MapReduce”的执行器节点都能够通过水平扩展来获取性能的提升。
 							</p>
 						</div>
@@ -233,59 +246,59 @@
 			<div class="col">
 				<div class="row">
 					<div class="col">
-						<h2 class="mg-md text-lg-center h2-powerjob优势-style tc-light-gray scroll-fx-up-in scroll-fx-down-out">
+						<h2  id="btn31k" k-resid="pwtext31" class="mg-md text-lg-center h2-pwad-style tc-white scroll-fx-up-in scroll-fx-down-out">
 							PowerJob 优势
 						</h2>
 						<div class="row scroll-fx-up-in scroll-fx-down-out">
 							<div class="col-lg-2">
 								<ul class="list-unstyled">
 									<li>
-										<h5 class="mg-md text-lg-right">
+										<h5 id="btn32k" k-resid="pwtext32" class="mg-md text-lg-right">
 											项目名
 										</h5>
 									</li>
 									<li>
-										<h5 class="mg-md text-lg-right">
+										<h5 id="btn33k" k-resid="pwtext33" class="mg-md text-lg-right">
 											定时类型
 										</h5>
 									</li>
 									<li>
-										<h5 class="mg-md text-lg-right">
+										<h5 id="btn34k" k-resid="pwtext34" class="mg-md text-lg-right">
 											任务类型
 										</h5>
 									</li>
 									<li>
-										<h5 class="mg-md text-lg-right">
+										<h5 id="btn35k" k-resid="pwtext35" class="mg-md text-lg-right">
 											分布式任务
 										</h5>
 									</li>
 									<li>
-										<h5 class="mg-md text-lg-right">
+										<h5 id="btn36k" k-resid="pwtext36" class="mg-md text-lg-right">
 											在线任务治理
 										</h5>
 									</li>
 									<li>
-										<h5 class="mg-md text-lg-right">
+										<h5 id="btn37k" k-resid="pwtext37" class="mg-md text-lg-right">
 											日志白屏化
 										</h5>
 									</li>
 									<li>
-										<h5 class="mg-md text-lg-right">
+										<h5 id="btn38k" k-resid="pwtext38" class="mg-md text-lg-right">
 											调度方式及性能
 										</h5>
 									</li>
 									<li>
-										<h5 class="mg-md text-lg-right">
+										<h5 id="btn39k" k-resid="pwtext39" class="mg-md text-lg-right">
 											报警监控
 										</h5>
 									</li>
 									<li>
-										<h5 class="mg-md text-lg-right">
+										<h5 id="btn40k" k-resid="pwtext40" class="mg-md text-lg-right">
 											系统依赖
 										</h5>
 									</li>
 									<li>
-										<h5 class="mg-md text-lg-right">
+										<h5 id="btn41k" k-resid="pwtext41" class="mg-md text-lg-right">
 											DAG工作流
 										</h5>
 									</li>
@@ -302,47 +315,47 @@
 										<ul class="list-unstyled">
 											<li>
 												<h5 class="mg-md">
-													<i><strong>CRON、固定频率、固定延迟、OpenAPI</strong></i>
+													<i><strong id="btn42k" k-resid="pwtext42">CRON、固定频率、固定延迟、OpenAPI</strong></i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i><strong>内置Java、外置Java（容器）、Shell、Python</strong></i>
+													<i><strong id="btn43k" k-resid="pwtext43">内置Java、外置Java（容器）、Shell、Python</strong></i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i><strong>MapReduce动态分片</strong></i>
+													<i><strong id="btn44k" k-resid="pwtext44" >MapReduce动态分片</strong></i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i><strong>支持</strong></i>
+													<i><strong id="btn45k" k-resid="pwtext45" >支持</strong></i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i><strong>支持</strong></i>
+													<i><strong id="btn46k" k-resid="pwtext46" >支持</strong></i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i><strong>无锁化设计，性能强劲无上限</strong></i>
+													<i><strong id="btn47k" k-resid="pwtext47" >无锁化设计，性能强劲无上限</strong></i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i><strong>邮件，提供接口允许开发者扩展</strong></i>
+													<i><strong id="btn48k" k-resid="pwtext48" >邮件，提供接口允许开发者扩展</strong></i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i><strong>任意Spring Data Jpa支持的关系型数据库</strong></i>
+													<i><strong id="btn49k" k-resid="pwtext49" >任意Spring Data Jpa支持的关系型数据库</strong></i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i><strong>支持</strong></i>
+													<i><strong id="btn50k" k-resid="pwtext50" >支持</strong></i>
 												</h5>
 											</li>
 										</ul>
@@ -366,47 +379,47 @@
 										<ul class="list-unstyled">
 											<li>
 												<h5 class="mg-md">
-													<i>CRON</i>
+													<i id="btn51k" k-resid="pwtext51" >CRON</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>内置Java</i>
+													<i id="btn52k" k-resid="pwtext52" >内置Java</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>无</i>
+													<i id="btn53k" k-resid="pwtext53" >无</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>不支持</i>
+													<i id="btn54k" k-resid="pwtext54" >不支持</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>不支持</i>
+													<i id="btn55k" k-resid="pwtext55" >不支持</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>基于数据库锁，有性能瓶颈</i>
+													<i id="btn56k" k-resid="pwtext56" >基于数据库锁，有性能瓶颈</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>无</i>
+													<i id="btn57k" k-resid="pwtext57" >无</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>关系型数据库</i>
+													<i id="btn58k" k-resid="pwtext58" >关系型数据库</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>不支持</i>
+													<i id="btn59k" k-resid="pwtext59" >不支持</i>
 												</h5>
 											</li>
 										</ul>
@@ -415,47 +428,47 @@
 										<ul class="list-unstyled">
 											<li>
 												<h5 class="mg-md">
-													<i>CRON</i>
+													<i id="btn60k" k-resid="pwtext60">CRON</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>内置Java、GLUE Java、Shell、Python</i>
+													<i id="btn61k" k-resid="pwtext61">内置Java、GLUE Java、Shell、Python</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>静态分片</i>
+													<i id="btn62k" k-resid="pwtext62">静态分片</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>支持</i>
+													<i id="btn63k" k-resid="pwtext63">支持</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>支持</i><br>
+													<i id="btn64k" k-resid="pwtext64">支持</i><br>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>基于数据库锁，有性能瓶颈</i><br>
+													<i id="btn65k" k-resid="pwtext65">基于数据库锁，有性能瓶颈</i><br>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>邮件</i><br>
+													<i id="btn66k" k-resid="pwtext66">邮件</i><br>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>MySQL</i><br>
+													<i id="btn67k" k-resid="pwtext67">MySQL</i><br>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>不支持</i>
+													<i id="btn68k" k-resid="pwtext68">不支持</i>
 												</h5>
 											</li>
 										</ul>
@@ -464,47 +477,47 @@
 										<ul class="list-unstyled">
 											<li>
 												<h5 class="mg-md">
-													<i>CRON、固定频率、固定延迟、OpenAPI</i>
+													<i id="btn69k" k-resid="pwtext69">CRON、固定频率、固定延迟、OpenAPI</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>内置Java、外置Java（FatJar）、Shell、Python</i>
+													<i id="btn70k" k-resid="pwtext70">内置Java、外置Java（FatJar）、Shell、Python</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>MapReduce动态分片</i>
+													<i id="btn71k" k-resid="pwtext71">MapReduce动态分片</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>支持</i>
+													<i id="btn72k" k-resid="pwtext72">支持</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>不支持</i>
+													<i id="btn73k" k-resid="pwtext73">不支持</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>不详</i>
+													<i id="btn74k" k-resid="pwtext74">不详</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>短信</i>
+													<i id="btn75k" k-resid="pwtext75">短信</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>人民币</i>
+													<i id="btn76k" k-resid="pwtext76">人民币</i>
 												</h5>
 											</li>
 											<li>
 												<h5 class="mg-md">
-													<i>支持</i>
+													<i id="btn77k" k-resid="pwtext77">支持</i>
 												</h5>
 											</li>
 										</ul>
@@ -524,16 +537,18 @@
 
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><span class="fa fa-chevron-up"></span></a>
 
-<div class="bloc b-parallax bg-powerjob_desktop_white_01 d-bloc" id="bloc-3">
+
+
+<div class="bloc b-parallax bg-challenge-slider-desktop-2400x1167 d-bloc" id="bloc-3">
 	<div class="container bloc-xl">
 		<div class="row">
 			<div class="col-12">
-				<h1 class="mg-md h1-color t2 tc-gray-htmlcss-gray text-lg-center scroll-fx-up-in">
-					<strong>谁在使用 PowerJob ?</strong>
+				<h1 class="h1-color t2 tc-gray-htmlcss-gray text-lg-center scroll-fx-up-in mg-md">
+					<strong id="btn78k" k-resid="pwtext78">谁在使用 PowerJob ?</strong>
 				</h1>
 			</div>
 		</div>
-		<div class="row voffset-lg scroll-fx-up-in">
+		<div class="row scroll-fx-up-in voffset-md">
 			<div class="col-md-4 col-lg-3 offset-lg-1 align-self-center">
 				<div class="card">
 					<img src="img/lazyload-ph.png" data-src="img/zju_logo.png" class="img-fluid mx-auto d-block img-bloc-3-style lazyload" alt="digishield" />
@@ -541,49 +556,157 @@
 			</div>
 			<div class="col-md-4 mt-3 mt-md-0 col-lg-4">
 				<div class="card">
-					<img src="img/lazyload-ph.png" data-src="img/oppo_logo.png" class="img-fluid mx-auto d-block img-digispe-style lazyload" alt="digispeed" />
+					<img src="img/lazyload-ph.png" data-src="img/management-v2.png" class="img-fluid mx-auto d-block img-digispe-style lazyload" alt="digispeed" />
 				</div>
 			</div>
 			<div class="col-md-4 mt-3 mt-md-0 col-lg-3 align-self-center">
 				<div class="card">
-					<img src="img/lazyload-ph.png" data-src="img/nnu_logo.png" class="img-fluid mx-auto d-block img-ls-lo-style mg-sm lazyload" alt="digiassets" />
+					<img src="img/lazyload-ph.png" data-src="img/nnu_logo.png" class="img-fluid mx-auto d-block img-ls-lo-style lazyload" alt="digiassets" />
 				</div>
 			</div>
 		</div>
-		<div class="row voffset-lg scroll-fx-up-in">
-			<div class="col-md-4 offset-lg-1 align-self-center col-lg-2">
+		<div class="row scroll-fx-up-in voffset">
+			<div class="col-md-4 align-self-center col-lg-3 offset-lg-0">
 				<div class="card">
-					<img src="img/lazyload-ph.png" data-src="img/mk_logo.png" class="img-fluid mx-auto d-block img-10-style lazyload" alt="development" />
+					<img src="img/lazyload-ph.png" data-src="img/inspur_logo.png" class="img-fluid mx-auto d-block img-14-style lazyload" alt="exodus" />
+				</div>
+			</div>
+			<div class="col-md-4 mt-3 mt-md-0 align-self-center col-lg-3">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/jd_logo.png" class="img-fluid mx-auto d-block img-15-style lazyload" alt="dandelion" />
+				</div>
+			</div>
+			<div class="col-md-4 mt-3 mt-md-0 align-self-center col-lg-3">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/cisco_logo.png" class="img-fluid mx-auto d-block img-16-style lazyload" alt="digi id" />
+				</div>
+			</div>
+			<div class="col-md-4 mt-3 mt-md-0 align-self-center col-lg-3">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/zto.png" class="img-fluid mx-auto d-block img-17-style lazyload" alt="launch" />
+				</div>
+			</div>
+		</div>
+		<div class="row voffset scroll-fx-up-in">
+			<div class="col-md-4 align-self-center offset-lg-1 col-lg-3">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/weipinghui.png" class="img-fluid mx-auto d-block img-14-style lazyload" alt="exodus" />
+				</div>
+			</div>
+			<div class="col-md-4 mt-3 mt-md-0 align-self-center col-lg-2">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/fjf_logo.png" class="img-fluid mx-auto d-block img-15-style lazyload" alt="dandelion" />
+				</div>
+			</div>
+			<div class="col-md-4 mt-3 mt-md-0 align-self-center col-lg-2">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/dong.png" class="img-fluid mx-auto d-block img-16-style lazyload" alt="digi id" />
+				</div>
+			</div>
+			<div class="col-md-4 mt-3 mt-md-0 align-self-center col-lg-3">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/beisen.png" class="img-fluid mx-auto d-block img-17-style lazyload" alt="launch" />
+				</div>
+			</div>
+		</div>
+		<div class="row voffset scroll-fx-up-in">
+			<div class="col-md-4 align-self-center col-lg-3 offset-lg-0">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/df.png" class="img-fluid mx-auto d-block img-10-style lazyload" alt="development" />
+				</div>
+			</div>
+			<div class="col-md-4 align-self-center offset-lg-0 col-lg-3">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/meitu_logo.png" class="img-fluid mx-auto d-block img-14-style lazyload" alt="exodus" />
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/dsxw.png" class="img-fluid mx-auto d-block img-14-style lazyload" alt="exodus" />
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/cloudr.png" class="img-fluid mx-auto d-block img-14-style lazyload" alt="exodus" />
+				</div>
+			</div>
+		</div>
+		<div class="row voffset scroll-fx-up-in">
+			<div class="col-md-4 align-self-center offset-lg-1 col-lg-2">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/seenda.png" class="img-fluid mx-auto d-block img-10-style lazyload" alt="development" />
 				</div>
 			</div>
 			<div class="col-md-4 align-self-center offset-lg-0 col-lg-2">
 				<div class="card">
-					<img src="img/lazyload-ph.png" data-src="img/ls_logo.png" class="img-fluid mx-auto d-block img-14-style lazyload" alt="exodus" />
+					<img src="img/lazyload-ph.png" data-src="img/redstore.png" class="img-fluid mx-auto d-block img-14-style lazyload" alt="exodus" />
 				</div>
 			</div>
-			<div class="col-md-4 mt-3 mt-md-0 align-self-center col-lg-2">
+			<div class="col-lg-2">
 				<div class="card">
-					<img src="img/lazyload-ph.png" data-src="img/tx_logo.png" class="img-fluid mx-auto d-block img-15-style lazyload" alt="dandelion" />
+					<img src="img/lazyload-ph.png" data-src="img/gta.png" class="img-fluid mx-auto d-block img-14-style lazyload" alt="exodus" />
 				</div>
 			</div>
-			<div class="col-md-4 mt-3 mt-md-0 align-self-center col-lg-2">
-				<div class="card">
-					<img src="img/lazyload-ph.png" data-src="img/dandelion.png" class="img-fluid mx-auto d-block img-16-style lazyload" alt="digi id" />
+			<div class="col-lg-2">
+					<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/yunqian_logo.png" class="img-fluid mx-auto d-block img-14-style lazyload" alt="exodus" />
 				</div>
 			</div>
-			<div class="col-md-4 mt-3 mt-md-0 align-self-center col-lg-2">
+			<div class="col-lg-2">
 				<div class="card">
-					<img src="img/lazyload-ph.png" data-src="img/more.png" class="img-fluid mx-auto d-block img-17-style lazyload" alt="launch" />
+					<img src="img/lazyload-ph.png" data-src="img/dfdz.png" class="img-fluid mx-auto d-block img-14-style lazyload" alt="exodus" />
+				</div>
+			</div>
+		</div>
+		<div class="row voffset scroll-fx-up-in">
+			<div class="col-md-4 align-self-center offset-lg-0 col-lg-2">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/weitu.png" class="img-fluid mx-auto d-block img-10-style lazyload" alt="development" />
+				</div>
+			</div>
+			<div class="col-md-4 align-self-center offset-lg-0 col-lg-2">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/thinktown.png" class="img-fluid mx-auto d-block img-14-style lazyload" alt="exodus" />
+				</div>
+			</div>
+			<div class="col-lg-2">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/vv_logo.png" class="img-fluid mx-auto d-block img-14-style lazyload" alt="exodus" />
+				</div>
+			</div>
+			<div class="col-lg-2">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/tianxing_logo.png" class="img-fluid mx-auto d-block img-14-style lazyload" alt="exodus" />
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/les_logo.png" class="img-fluid mx-auto d-block img-14-style lazyload" alt="exodus" />
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="img/lazyload-ph.png" data-src="img/mkzn_logo.png" class="img-fluid mx-auto d-block img-14-style lazyload" alt="exodus" />
 				</div>
 			</div>
 		</div>
 		<div class="row voffset-md">
 			<div class="col">
 				<div class="text-center">
-					<a href="https://github.com/KFCFans/PowerJob/issues/6" class="btn btn-lg btn-rd btn-d scroll-fx-up-in" target="_blank">查看更多 PowerJob 使用者<br></a>
+					<a href="https://github.com/KFCFans/PowerJob/issues/6" class="btn btn-lg btn-rd btn-d scroll-fx-up-in" 
+					target="_blank" id="btn79k" k-resid="pwtext79">查看更多 PowerJob 使用者<br></a>
 				</div>
 			</div>
 		</div>
+		<div class="row">
+						<div class="col">
+						<div class="text-center">
+							<label class="mg-md label-style scroll-fx-up-in">
+								<span class="fa fa-check ltc-blue-ryb"></span><a class="link-style ltc-blue-ryb" href="https://github.com/KFCFans/PowerJob/issues/6" target="_blank"><b><span id="btn97k" k-resid="pwtext97">我要登记</span></b></a><br>
+							</label>
+						</div>
+					</div>
+				</div>
 	</div>
 </div>
 
@@ -591,29 +714,35 @@
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-md-3 col-sm-6">
-				<h4 class="mg-md text-sm-left text-center tc-white-2">
+				<h4 id="btn80k" k-resid="pwtext80" class="mg-md text-sm-left text-center tc-white-2">
 					学习
-				</h4><a href="https://www.yuque.com/powerjob/guidence/ztn4i5" class="a-btn a-block footer-link" target="_blank">项目简介</a><a href="https://www.yuque.com/powerjob/guidence/nyio9g" class="a-btn a-block footer-link" target="_blank">框架入门</a><a href="https://www.yuque.com/powerjob/guidence/bdvp1u" class="a-btn a-block footer-link" target="_blank">部署教程</a>
+				</h4><a href="https://www.yuque.com/powerjob/guidence/ztn4i5" class="a-btn a-block footer-link" target="_blank" id="btn81k" k-resid="pwtext81">项目简介</a>
+				<a href="https://www.yuque.com/powerjob/guidence/nyio9g" class="a-btn a-block footer-link" target="_blank" id="btn82k" k-resid="pwtext82">框架入门</a>
+				<a href="https://www.yuque.com/powerjob/guidence/bdvp1u" class="a-btn a-block footer-link" target="_blank" id="btn83k" k-resid="pwtext83">部署教程</a>
 			</div>
 			<div class="col-md-3 col-sm-6">
-				<h4 class="mg-md text-sm-left text-center tc-white-2">
+				<h4 class="mg-md text-sm-left text-center tc-white-2" id="btn84k" k-resid="pwtext84">
 					代码
-				</h4><a href="https://github.com/KFCFans/PowerJob" class="a-btn a-block footer-link" target="_blank">GitHub</a><a href="https://gitee.com/KFCFans/PowerJob" class="a-btn a-block footer-link" target="_blank">Gitee</a>
+				</h4>
+				<a href="https://github.com/KFCFans/PowerJob" class="a-btn a-block footer-link" target="_blank">GitHub</a>
+				<a href="https://gitee.com/KFCFans/PowerJob" class="a-btn a-block footer-link" target="_blank">Gitee</a>
 			</div>
 			<div class="col-md-3 col-sm-6">
-				<h4 class="mg-md text-sm-left text-center tc-white-2">
+				<h4 class="mg-md text-sm-left text-center tc-white-2" id="btn85k" k-resid="pwtext85">
 					交流
-				</h4><a href="https://github.com/KFCFans/PowerJob/issues" class="a-btn a-block footer-link" target="_blank">GitHub Issues</a><a href="https://jq.qq.com/?_wv=1027&amp;k=DKX8OoSQ" class="a-btn a-block footer-link" target="_blank">用户群&nbsp;487453839</a>
+				</h4>
+				<a href="https://github.com/KFCFans/PowerJob/issues" class="a-btn a-block footer-link" target="_blank">GitHub Issues</a>
+				<a href="https://jq.qq.com/?_wv=1027&amp;k=DKX8OoSQ" class="a-btn a-block footer-link" target="_blank" ><span id="btn86k" k-resid="pwtext86">用户群</span>&nbsp;487453839</a>
 			</div>
 			<div class="col-md-3 col-sm-6">
-				<h4 class="mg-md text-sm-left text-center tc-white-2">
+				<h4 class="mg-md text-sm-left text-center tc-white-2" id="btn87k" k-resid="pwtext87">
 					其他
 				</h4>
 				<h6 class="text-center mg-sm text-lg-left">
 					<a href="https://github.com/KFCFans/PowerJob/blob/master/LICENSE" target="_blank">Apache License, Version 2.0</a><br>
 				</h6>
 				<h6 class="text-center mg-sm text-lg-left">
-					Copyright © 2020 PowerJob.&nbsp;
+					Copyright © 2022 PowerJob.&nbsp;
 				</h6>
 				<h6 class="text-center mg-md text-lg-left">
 					浙ICP备20022433号
@@ -629,6 +758,12 @@
     
 
 <script src="./js/jquery-3.5.1.min.js?3310"></script>
+
+<script src="./js/js.cookie.min.js"></script>
+<script src="./js/jquery.i18n.js"></script>
+<script src="./js/powerjob_lan.js"></script>
+
+
 <script src="./js/bootstrap.bundle.min.js?666"></script>
 <script src="./js/blocs.min.js?1436"></script>
 <script src="./js/lazysizes.min.js" defer></script>
