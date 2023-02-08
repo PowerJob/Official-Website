@@ -9,8 +9,6 @@
 <a href="https://github.com/PowerJob/PowerJob/blob/master/LICENSE"><img src="https://img.shields.io/github/license/KFCFans/PowerJob" alt="LICENSE"></a>
 </p>
 
-PowerJob（原OhMyScheduler）是全新一代分布式调度与计算框架，能让您轻松完成作业的调度与繁杂任务的分布式计算。  
-
 ### Official-Website
 PowerJob官网页面前端，官网地址为http://www.powerjob.tech/
 
