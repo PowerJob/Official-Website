@@ -10,7 +10,7 @@
 </p>
 
 ### Official-Website
-PowerJob官网页面前端，官网地址为http://www.powerjob.tech/
+PowerJob官网页面前端，官网地址为http://mainpage.powerjob.tech/
 
 # 简介
 ### 主要特性
